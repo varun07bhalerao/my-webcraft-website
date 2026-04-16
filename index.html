@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cdvxfcgnm b - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: sans-serif; -webkit-font-smoothing: antialiased; margin: 0; padding: 0; min-height: 100vh; }
+    @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0px); } }
+    .animate-float { animation: float 3s ease-in-out infinite; }
+  </style>
+</head>
+<body>
+  <div class="w-full h-full overflow-y-auto overflow-x-hidden"><div class="font-sans min-h-screen bg-[#faf9f6] text-[#2c2c2c]"><nav class="border-b border-gray-200 px-8 lg:px-24 py-6 flex items-center justify-between sticky top-0 bg-[#faf9f6]/95 backdrop-blur z-50"><img src="https://res.cloudinary.com/darkgymcp/image/upload/v1776277763/sxuucg3jrnx7aoyzeb9j.png" alt="[object Object]" class="h-8 object-contain"/><div class="hidden md:flex gap-8 text-sm text-gray-500 uppercase tracking-widest font-semibold"><span class="hover:text-black cursor-pointer transition-colors cursor-pointer hover:opacity-80 transition-opacity">Home</span><span class="hover:text-black cursor-pointer transition-colors cursor-pointer hover:opacity-80 transition-opacity">about us&#x27;</span></div><button class="text-xs uppercase tracking-widest font-bold border-b-2 border-transparent hover:border-black pb-1 transition-colors">Subscribe</button></nav><main class="max-w-4xl mx-auto px-8 py-24 md:py-32"><article class="border-b border-gray-200 pb-24 mb-24 text-center"><div class="text-xs font-bold uppercase tracking-[0.2em] text-[#d97706] mb-8">Featured Story</div><h1 class="font-serif text-5xl md:text-7xl font-bold leading-[1.1] mb-8 tracking-tight">ok</h1><p class="text-xl md:text-2xl text-gray-500 font-light leading-relaxed max-w-2xl mx-auto mb-12">gfhgyjkuj</p><button class="bg-black text-white px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-gray-800 transition-colors">jinn</button></article><section class="mb-24"><div class="flex items-center justify-between mb-12 border-b border-gray-200 pb-4"><h2 class="font-serif text-3xl font-bold"></h2></div><div class="prose prose-lg text-gray-600 font-serif leading-relaxed font-light mx-auto"><p class="indent-8 text-xl leading-[1.8]"></p><p class="indent-8 mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></section><section class="mb-24"><div class="flex flex-col gap-12"><h2 class="font-serif text-3xl font-bold mb-4"></h2></div></section></main><footer class="bg-black text-white px-8 lg:px-24 py-20 flex flex-col md:flex-row justify-between items-start md:items-center"><div class="mb-12 md:mb-0"><h2 class="font-serif text-3xl font-bold tracking-tight mb-4"><img src="https://res.cloudinary.com/darkgymcp/image/upload/v1776277763/sxuucg3jrnx7aoyzeb9j.png" alt="cdvxfcgnm b" class="h-8 inline-block object-contain"/></h2><p class="text-sm text-gray-400 max-w-xs"> — independent publishing for the modern era.</p></div><div class="flex flex-col gap-4 text-sm font-bold uppercase tracking-widest text-gray-300"><a href="mailto:undefined" class="hover:text-white transition-colors">Email: </a><a href="tel:undefined" class="hover:text-white transition-colors">Tel: </a></div></footer></div></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const navMap = [{"name":"Home","filename":"index.html"},{"name":"about us'","filename":"about us'.html"}];
+      const spans = document.querySelectorAll('span.cursor-pointer');
+      spans.forEach(span => {
+        const text = span.innerText.trim();
+        const target = navMap.find(m => m.name === text);
+        if (target) {
+          span.onclick = (e) => {
+            e.preventDefault();
+            window.location.href = target.filename;
+          };
+        }
+      });
+    });
+  </script>
+</body>
+</html>
